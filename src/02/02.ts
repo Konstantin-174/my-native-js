@@ -1,19 +1,19 @@
-type TechnologyType = {
+export type TechnologyType = {
     id: number
     title: string
 }
 
-type LocalCityType = {
+export type LocalCityType = {
     title: string
     countryTitle: string
 }
 
-type AddressType = {
+export type AddressType = {
     streetTitle: string
     city: LocalCityType
 }
 
-type StudentType = {
+export type StudentType = {
     id: number
     name: string
     age: number
